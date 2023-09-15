@@ -9,14 +9,12 @@ def jadualdarab():
         print("*" , end="")
     print()
 
-    for i in range(1, 11):
-        print("\t", i, end="\t")
+    for i in range (1, 11):
+        print("\n", i)
+        for j in range (1, 11):
+            j
 
-    print()
-
-    for j in range(1, 11):
-        for i in range(1,11):
-            print(j * i )
+        print()
 
 
 if __name__ == "__main__":
